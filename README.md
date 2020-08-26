@@ -1,9 +1,119 @@
 # Awesome CG / VFX Pipeline
 
-List of open-source technologies that will help in the process of building a
-pipeline for CG or VFX productions.
+List of open-source technologies that will help in the process of building a pipeline for CG or VFX productions.
 
-Any contribution is welcome!
+Contributions are welcome!
+
+## Contents
+* 3D
+* Geometry
+* Volumes
+* Rendering
+* Renderfarms
+* Video
+* Images
+* Colors
+* Photography
+* Photogrammetry
+* Environments
+* Pipelines
+* Docker
+* IDEs
+* Files
+* UI
+* Databases
+* Monitoring
+* Communities
+* Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 3D
+* packages
+* engines
+* libraries
+
+## Geometry
+* formats
+* point clouds
+* modifiers
+
+## Volumes
+
+## Rendering
+
+## Renderfarms
+
+## Video
+
+## Images
+* editors
+* animation
+* libraries
+
+## Colors
+
+## Photography
+
+## Photogrammetry
+
+## Environments
+
+## Pipelines
+* production
+* assets
+
+## Docker
+
+## IDEs
+* PyCharm
+* Sublime Text
+* vim
+* VSCode
+
+## Files
+
+## UI
+
+## Databases
+* Graph
+* SQL
+* no SQL
+
+## Monitoring
+
+## Communities
+
+## Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Image software
 
@@ -254,6 +364,8 @@ Any contribution is welcome!
 
 * [ELK Stack](https://www.elastic.co/webinars/introduction-elk-stack)
 * [Prometheus](https://prometheus.io/)
+* [Grafana](https://grafana.com/)
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 
 ## Communities
 
