@@ -4,62 +4,79 @@ List of open-source technologies that will help in the process of building a pip
 
 Contributions are welcome!
 
+## How to read it
+* [Project Name](#) - Short description `SPDX License`
+* [GIMP](https://www.gimp.org) - Cross-platform image editor `GPL-3.0-only`
+
+[SPDX](https://spdx.org/licenses/) is a standard identifier for common licences.
+
 ## Contents
-* 3D
-* Geometry
-* Volumes
-* Rendering
-* Renderfarms
-* Video
-* Images
-* Colors
-* Photography
-* Photogrammetry
-* Environments
-* Pipelines
-* Docker
-* IDEs
-* Files
-* UI
-* Databases
-* Monitoring
-* Communities
-* Resources
-
-
-
-
-
-
-
-
-
-
-
-
+* [3D](#3D)
+* [Geometry](#Geometry)
+* [Volumes](#Volumes)
+* [Rendering](#Rendering)
+* [Renderfarms](#Renderfarms)
+* [Video](#Video)
+* [Images](#Images)
+* [Colors](#Colors)
+* [Photography](#Photography)
+* [Photogrammetry](#Photogrammetry)
+* [Environments](#Environments)
+* [Pipelines](#Pipelines)
+* [Docker](#Docker)
+* [IDEs](#IDEs)
+* [Files](#Files)
+* [UI](#UI)
+* [Databases](#Databases)
+* [Monitoring](#Monitoring)
+* [Communities](#Communities)
+* [Resources](#Resources)
 
 ## 3D
-* packages
-* engines
-* libraries
+* Packages
+    * [Blender](https://blender.org) - 3D creation suite `GPL-2.0-or-later`
+    * [Dust3D](https://dust3d.org) - Modeling software `MIT`
+    * [ArmorPaint](https://armorpaint.org/) - A stand-alone software designed for physically-based texture painting `Zlib`
+* Engines
+    * [Unreal Engine](https://www.unrealengine.com/) - The world’s most open and advanced real-time 3D creation tool
+    * [Armory](https://armory3d.org) - 3D engine with Blender integration focused on portability, minimal footprint and performance `Zlib`
+    * [Fusee](https://github.com/FUSEEProjectTeam/Fusee/) - A multiplatform 3D realtime engine with a strong emphasis on content transformation and manipulation `MIT`
+    * [Godot](https://godotengine.org/) - A 2D and 3D, cross-platform, free and open-source game engine `MIT`
+    * [Panda3d](https://www.panda3d.org/) - Framework for 3D Rendering and Games `BSD-3-Clause`
+    * [Three.js](https://threejs.org/) - JavaScript 3D library `MIT`
+    * [Babylon.js](http://www.babylonjs.com/) - One of the most powerful, beautiful, and simple Web rendering engines in the world `Apache-2.0`
+    * [Filament](https://github.com/google/filament) - A real-time physically based rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL `Apache-2.0`
+
+* Libraries
 
 ## Geometry
-* formats
-* point clouds
-* modifiers
+* Formats
+* Point clouds
+* Processing
+    * [MeshLab](https://www.meshlab.net/) - System for processing and editing 3D triangular meshes `GPL-3.0-only`
 
 ## Volumes
 
 ## Rendering
+* [AppleSeed](https://appleseedhq.net/) - Physically-based global illumination rendering engine `MIT`
 
 ## Renderfarms
 
 ## Video
 
 ## Images
-* editors
-* animation
-* libraries
+* Editors
+    * [GIMP](https://www.gimp.org) - A cross-platform image editor `GPL-3.0-only`
+    * [Krita](https://krita.org) - A professional painting program `GPL-3.0-only`
+    * [Storyboarder](https://wonderunit.com/storyboarder/) - The best way to visualize your story `MIT`
+    * [MyPaint](http://mypaint.org/) - Graphics editor for digital painters with a focus on painting rather than image manipulation or post processing `GPL-2.0-or-later`
+    * [Inkscape](https://inkscape.org/) - Professional quality vector graphics software `GPL-2.0-only`
+* Animation
+    * [OpenToonz](https://opentoonz.github.io/e/index.html) - Animation production software `BSD-3-Clause`
+    * [Synfig](https://www.synfig.org/) - 2D animation software `GPL-3.0-only`
+    * [Pencil2D](https://www.pencil2d.org/) - An easy, intuitive tool to make 2D hand-drawn animations `GPL-2.0-only`
+
+* Libraries
 
 ## Colors
 
@@ -70,8 +87,8 @@ Contributions are welcome!
 ## Environments
 
 ## Pipelines
-* production
-* assets
+* Production
+* Assets
 
 ## Docker
 
@@ -88,7 +105,7 @@ Contributions are welcome!
 ## Databases
 * Graph
 * SQL
-* no SQL
+* No SQL
 
 ## Monitoring
 
@@ -115,44 +132,17 @@ Contributions are welcome!
 
 
 
-## Image software
 
-### 2D
 
-* [The Gimp](https://www.gimp.org) - Image editor
-* [Krita](https://krita.org) - Digital Painting
-* [Opentoonz](https://opentoonz.github.io/) - Animation
-* [Synfig](https://www.synfig.org/) - Animation
-* [Pencil2D](https://www.pencil2d.org/) - Hand-drawn animation
-* [Storyboarder](https://wonderunit.com/storyboarder/) - Storyboard editor
-* [MyPaint](https://github.com/mypaint/mypaint) - Painting app for artists
-* [Inkscape](https://inkscape.org/) - Vector graphics editor
 
-### 3D
 
-* [Blender](https://blender.org) - Modeling and animation
-* [Dust3D](https://dust3D.org) - Modeling
-* [ArmorPaint](https://armorpaint.org/) - Painting
-* [AppleSeed](https://appleseedhq.net/) - Physically-based global illumination rendering engine
-* [MeshLab](https://www.meshlab.net/) - System for processing and editing 3D triangular meshes
 
-### 3D realtime engines
 
-* [Armory](https://armory3d.org) - 3D Game Engine For Blender
-* [Babylon.js](http://www.babylonjs.com/) - WebGL engine
-* [Filament](https://github.com/google/filament) - PBR engine
-* [Fusee](https://github.com/FUSEEProjectTeam/Fusee/) - C# based engine
-* [Godot](https://godotengine.org/) - C++ based 2D/3D realtime engine (PC, console, mobile, HMTL5)
-* [Panda3d](https://www.panda3d.org/) - Python based 3d Engine (PC)
-* [Three.js](https://threejs.org/) - WebGL engine
-* [Unreal Engine](https://www.unrealengine.com/) - C++ based 2D/3D realtime engine (PC, console, mobile, HMTL5)
 
-### Photography
 
 * [Darktable](https://www.darktable.org/) - Photography workflow application and raw developer
 * [dcraw](https://www.dechifro.org/dcraw/) - A tool that decodes any raw image from any digital camera on any computer running any operating system
 
-### Video
 
 * [CasparCG](https://github.com/CasparCG) - Video broadcast
 * [Natron](https://natron.fr) - Compositing
@@ -163,9 +153,7 @@ Contributions are welcome!
 * [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
 * [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and film production
 
-## Libraries
 
-### File path
 
 * [Lucidity](http://lucidity.readthedocs.io/en/latest/) - String/filepath templates system inspired by SGTK's template mechanisms
 * [Fileseq](https://github.com/sqlboy/fileseq) - Frame ranges and file sequences parsing
@@ -173,7 +161,6 @@ Contributions are welcome!
 * [pyseq](https://github.com/rsgalloway/pyseq) - Another Python module for file sequence parsing and serialization
 * [Clique](https://gitlab.com/4degrees/clique) - Another Python module for file sequence parsing and formatting
 
-### UI
 
 * [Qt.py](https://github.com/mottosso/Qt.py) - Qt versions abstraction
 * [QtWebengine](https://github.com/qt/qtwebengine) - Render web content in Qt
@@ -183,7 +170,6 @@ Contributions are welcome!
 * [Thonside](https://github.com/col-one/thonside) - Python console for Qt apps
 * [Riffle](https://gitlab.com/4degrees/riffle) - A filesystem browser for PySide supporting sequences grouping
 
-### CG Software API
 
 * [Cross3D](https://github.com/blurstudio/cross3d) - Scene and node management abstraction
 * [Py3dsMax](https://github.com/blurstudio/Py3dsMax) - 3dsMax API in Python
@@ -195,7 +181,6 @@ Contributions are welcome!
 * [Cortex](https://github.com/ImageEngine/cortex) - Libraries for VFX software development
 * [ExoCortex for Max 2018](https://github.com/unit-image/ExocortexCrate) - ExoCortex ported to Max 2018
 
-### Geometry
 
 * [Simplex](https://github.com/blurstudio/Simplex) - Blendshape Solver
 * [CvWrap](https://github.com/chadmv/cvwrap) - Fast Maya wrap deformer
@@ -211,21 +196,17 @@ Contributions are welcome!
 * [OpenSubdiv](http://graphics.pixar.com/opensubdiv/docs/intro.html) - A set of open source libraries that implement high performance subdivision surface evaluation on massively parallel CPU and GPU architectures
 * [Dem Bones](https://www.ea.com/seed/news/open-source-dem-bones) - A library for skinning decomposition
 
-### Colors
 
 * [OpenColorIO](https://opencolorio.org/) ([repo](https://github.com/AcademySoftwareFoundation/OpenColorIO)) - Unified color environment
 * [Colour](https://www.colour-science.org/) - An open-source Python package providing a comprehensive number of algorithms and datasets for colour science
 
-### Shaders
 
 * [OSL](http://opensource.imageworks.com/?p=osl) - Language to manipulate shaders
 * [Ptex](http://ptex.us/) - A texture mapping system developed by Walt Disney Animation Studios for production-quality rendering
 
-### Validation and publishing
 
 * [Pyblish](https://github.com/pyblish/pyblish) - A Python framework that brings test-driven development to visual effects and triple-A game creation
 
-## File formats
 
 * [Alembic](http://www.alembic.io/) - Animations
 * [ACES](http://www.oscars.org/science-technology/sci-tech-projects/aces) - Color management
@@ -248,7 +229,6 @@ Contributions are welcome!
 * [Field3D](https://magnuswrenninge.com/field3d) - An open source library for storing voxel data
 * [Kiko](https://github.com/Toolchefs/kiko) - DCC-agnostic animation curves storage (works between Maya and Nuke, with more DCCs to come)
 
-## Job schedulers
 
 * [Coalition](http://coalition.readthedocs.io/en/latest/) from Mercenaries Engineering (developers of Guerilla Render)
 * [OpenCue](https://opencue.io) ([repo](https://github.com/AcademySoftwareFoundation/OpenCue)) from Sony Imageworks
@@ -257,7 +237,6 @@ Contributions are welcome!
 * [CGRU](http://cgru.info/) is a CG tools pack that includes AFANASY, a free opensource render farm manager
 * [Pandora](https://prism-pipeline.com/pandora/) Open-Source Renderfarm-Manager
 
-## Package managers
 
 * [Ecosystem](https://github.com/PeregrineLabs/Ecosystem)
 * [Rez](https://github.com/nerdvegas/rez)
@@ -265,7 +244,6 @@ Contributions are welcome!
 * [conda](https://github.com/conda/conda)
 * [wiz](https://github.com/themill/wiz)
 
-## Asset managers
 
 * [Avalon](https://getavalon.github.io)
 * [Damas](http://damas-software.org/)
@@ -275,22 +253,18 @@ Contributions are welcome!
 * [Prism](https://prism-pipeline.com/)
 * [TACTIC-Handler](https://github.com/listyque/TACTIC-Handler)
 
-## Production Managers
 
 * [Kitsu](https://kitsu.cg-wire.com) - For small to mid-size studios
 * [Attract](https://attract.studio/) - Production tracking for film makers (Blender Foundation)
 
-## Photogrammetry
 
 * [AliceVision](https://alicevision.org/) - Photogrammetric Computer Vision Framework
 * [COLMAP](https://colmap.github.io/) - A general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface
 * [openMVG](https://openmvg.readthedocs.io/en/latest/) - A library for computer-vision scientists and targeted for the Multiple View Geometry community
 
-## Content validation
 
 * [Pyblish](http://pyblish.com/) - Test-driven content creation
 
-## Docker images
 
 * [Animal Logic's USD Docker](https://github.com/AnimalLogic/docker-usd)
 * [Deadline](https://github.com/mottosso/docker-deadline)
@@ -298,12 +272,10 @@ Contributions are welcome!
 * [Maya](https://github.com/mottosso/docker-maya)
 * [Foundry RLM](https://github.com/tokejepsen/docker-foundry-rlm)
 
-### Misc
 
 * [WSL Distribution Switcher](https://github.com/RoliSoft/WSL-Distribution-Switcher) - Change the distro behind Windows Subsystem
 * [Jean-Paul Start](https://github.com/cube-creative/jeanpaulstart) - Small (with Ansible-like syntax) launcher with GUI
 
-## Plugins
 
 * [AFX](https://github.com/AuthorityFX/afx-nuke-plugins) - Everyday compositing for Nuke
 * [Cmt](https://github.com/chadmv/cmt) - Various Maya tools
@@ -312,24 +284,19 @@ Contributions are welcome!
 * [Palladio](https://github.com/Esri/palladio) - CityEngine Plugin for Houdini
 * [Wiretap](https://github.com/predat/wiretap) - Manage Flame Wiretap database
 
-## IDE
 
-### PyCharm
 
 * [MayaCharm](https://github.com/cmcpasserby/MayaCharm) - Run and edit Maya scripts directly from PyCharm
 * [USD](https://github.com/justint/usd-idea) - Plug-in for USD
 
-### SublimeText
 
 * [MayaSublime](https://github.com/justinfx/MayaSublime) - Run and edit Maya scripts directly from SublimeText
 * [MariSublime](https://github.com/cg-cnu/marisublime) - Run and edit Mari scripts directly from SublimeText
 * [VEX](https://github.com/teared/VEX) - Houdini add-on for Sublime Text
 
-### vim
 
 * [nuke.vim](https://github.com/heavyimage/nuke.vim) - Run and edit Nuke scripts directly from vim
 
-### VSCode
 
 * [MayaCode](https://marketplace.visualstudio.com/items?itemName=saviof.mayacode) ([repo](https://github.com/artbycrunk/vscode-maya)) - Maya syntax highlighting support, along with autocomplete commands and send code to maya via command port
 * [MayaPort](https://marketplace.visualstudio.com/items?itemName=JonMacey.mayaport) ([repo](https://github.com/NCCA/mayaport)) - Run Maya code from VSCode
@@ -339,9 +306,7 @@ Contributions are welcome!
 * [Blink Script (Nuke) Language Syntax](https://marketplace.visualstudio.com/items?itemName=melmass.blink) ([repo](https://github.com/melMass/vscode-blink.git)) - for syntax highlighting support
 * [Pixar USD ASCII Language Syntax](https://marketplace.visualstudio.com/items?itemName=AnimalLogic.vscode-usda-syntax) ([repo](https://github.com/AnimalLogic/AL_usd_vscode_extension)) - for syntax highlighting support, courtesy of the folks at Animal Logic
 
-## Databases
 
-### Graph
 
 * [ArangoDB](https://github.com/arangodb/arangodb)
 * [Cayley](https://github.com/cayleygraph/cayley)
@@ -350,24 +315,20 @@ Contributions are welcome!
 * [OrientDB](https://orientdb.com)
 * [JanusGraph](https://github.com/JanusGraph/janusgraph)
 
-### Relational
 
 * [MySQL](http://www.mysql.com)
 * [PostgreSQL](https://www.postgresql.org/)
 
-### Document-based
 
 * [MongoDB](http://www.mongodb.org)
 * [Cassandra](http://cassandra.apache.org/)
 
-## Monitoring Web Services
 
 * [ELK Stack](https://www.elastic.co/webinars/introduction-elk-stack)
 * [Prometheus](https://prometheus.io/)
 * [Grafana](https://grafana.com/)
 * [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 
-## Communities
 
 * [Tech-artists.org](http://tech-artists.org)
 * [StudioSysAdmins](http://studiosysadmins.com)
@@ -377,7 +338,6 @@ Contributions are welcome!
 * [CGWire Slack](http://slack.cg-wire.com)
 * [od|force](https://forums.odforce.net/)
 
-## Resources / Tutorials
 
 * [Beginning Python For Maya](http://zurbrigg.com/training/beginning-python-for-maya)
 * [Blue Sky Studios Tech Blog](https://medium.com/blue-sky-tech-blog)
@@ -388,7 +348,6 @@ Contributions are welcome!
 * [Unit Testing in Maya](http://www.chadvernon.com/blog/maya/unit-testing-in-maya/)
 * [cgwiki](http://www.tokeru.com/cgwiki/)
 
-## Free music for showreel
 
 * [Wowa](https://www.wowa.me/)
 * [Music For Vlogs](https://soundcloud.com/freemusicforvlogs)
