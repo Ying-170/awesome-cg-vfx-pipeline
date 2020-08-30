@@ -71,6 +71,16 @@ Contributions are welcome!
 
 ## Video
 
+* [CasparCG](https://github.com/CasparCG) - A Windows and Linux software used to play out professional graphics, audio and video to multiple outputs as a layerbased real-time compositor `GPL-3.0-only`
+* [Natron](https://natrongithub.github.io/) - Open Source Compositing Software For
+VFX and Motion Graphics `GPL-2.0-only`
+* [Shotcut](https://www.shotcutapp.com/) - Shotcut is a free, open source, cross-platform video editor `GPL-3.0-only`
+* [Kdenlive](https://www.kdenlive.org) - Video editing software based on the MLT Framework, KDE and Qt `GPL-2.0-or-later`
+* [Olive](https://www.olivevideoeditor.org/) - Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software `GPL-3.0-only`
+* [GStreamer](https://gstreamer.freedesktop.org/) - Pipeline-based multimedia framework that links together a wide variety of media processing systems to complete complex workflows `LGPL-3.0-only`
+* [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video `LGPL-2.1-or-later`
+* [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and film production `BSD-3-Clause`
+
 ## Images
 
 * Editors
@@ -118,9 +128,9 @@ Contributions are welcome!
     - [MayaSublime](https://github.com/justinfx/MayaSublime) - Send selected Python and MEL code snippets from SublimeText to Maya via commandPort `MIT`
     - [MariSublime](https://github.com/cg-cnu/marisublime) - Send code to Mari from Sublime Text using command port `MIT`
     - [VEX](https://github.com/teared/VEX) - Houdini add-on for Sublime Text
-* vim
+* [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient `Vim`
     - [nuke.vim](https://github.com/heavyimage/nuke.vim) - A vim plugin with tools for integrating with The Foundry's Nuke `GPL-3.0-or-later`
-* VSCode
+* [Visual Studio Code](https://code.visualstudio.com/) - A free source-code editor made by Microsoft for Windows, Linux and macOS `MIT`
     - [Blink Script](https://marketplace.visualstudio.com/items?itemName=melmass.blink) - The Foundry's Nuke Blink script syntax support and snippets for VSCode
     - [MayaCode](https://marketplace.visualstudio.com/items?itemName=saviof.mayacode) - A Visual Studio Code extension with support for coding for Maya `MIT`
     - [MayaPort](https://marketplace.visualstudio.com/items?itemName=JonMacey.mayaport) - Simple vscode to Maya command port interface for mel and python scripts `MIT`
@@ -143,22 +153,6 @@ Contributions are welcome!
 ## Communities
 
 ## Resources
-
-* [CasparCG](https://github.com/CasparCG) - Video broadcast
-
-* [Natron](https://natron.fr) - Compositing
-
-* [Shotcut](https://www.shotcutapp.com/) - Video editing
-
-* [Kdenlive](https://www.kdenlive.org) - Video editing
-
-* [Olive](https://www.olivevideoeditor.org/) - Video editing
-
-* [GStreamer](https://gstreamer.freedesktop.org/) - Multimedia framework
-
-* [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
-
-* [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and film production
 
 * [Lucidity](http://lucidity.readthedocs.io/en/latest/) - String/filepath templates system inspired by SGTK's template mechanisms
 
