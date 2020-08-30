@@ -65,6 +65,11 @@ Contributions are welcome!
 
 ## Renderfarms
 
+* [Animal Logic's USD Docker](https://github.com/AnimalLogic/docker-usd) `MIT`
+* [CGRU](http://cgru.info/) is a CG tools pack that includes AFANASY, a free opensource render farm manager `LGPL`
+* [Deadline](https://github.com/mottosso/docker-deadline)
+* [OpenCue](https://opencue.io) ([repo](https://github.com/AcademySoftwareFoundation/OpenCue)) from Sony Imageworks `Apache-2.0`
+
 ## Video
 
 ## Images
@@ -80,12 +85,19 @@ Contributions are welcome!
     - [Synfig](https://www.synfig.org/) - 2D animation software `GPL-3.0-only`
     - [Pencil2D](https://www.pencil2d.org/) - An easy, intuitive tool to make 2D hand-drawn animations `GPL-2.0-only`
 * Libraries
+    - [OpenImageIO](https://github.com/OpenImageIO/oiio) - A library for reading and writing images in many common and VFX related formats `BSD-3-Clause`
+    - [OpenColorIO](https://opencolorio.org/) ([repo](https://github.com/AcademySoftwareFoundation/OpenColorIO)) - Unified color environment `BSD-3-Clause`
 
 ## Colors
 
 ## Photography
 
+* [Darktable](https://www.darktable.org/) - Photography workflow application and raw developer `GPL-3.0-or-later`
+* [dcraw](https://www.dechifro.org/dcraw/) - A tool that decodes any raw image from any digital camera on any computer running any operating system
+
 ## Photogrammetry
+
+* [AliceVision](https://alicevision.org/) - Photogrammetric Computer Vision Framework `MPL-2.0`
 
 ## Environments
 
@@ -99,9 +111,20 @@ Contributions are welcome!
 ## IDEs
 
 * PyCharm
+    - [MayaCharm](https://github.com/cmcpasserby/MayaCharm) - Run and edit Maya scripts directly from PyCharm `MIT`
 * Sublime Text
-* vim
-* VSCode
+    - [MayaSublime](https://github.com/justinfx/MayaSublime) - Run and edit Maya scripts directly from SublimeText `MIT`
+    - [MariSublime](https://github.com/cg-cnu/marisublime) - Run and edit Mari scripts directly from SublimeText `MIT`
+    - [VEX](https://github.com/teared/VEX) - Houdini add-on for Sublime Text `Public Domain`
+* vim `Vim`
+    - [nuke.vim](https://github.com/heavyimage/nuke.vim) - Run and edit Nuke scripts directly from vim `GPL-3.0-or-later`
+* VSCode `MIT`
+    - [Blink Script (Nuke) Language Syntax](https://marketplace.visualstudio.com/items?itemName=melmass.blink) ([repo](https://github.com/melMass/vscode-blink.git)) - for syntax highlighting support `Public Domain`
+    - [MayaCode](https://marketplace.visualstudio.com/items?itemName=saviof.mayacode) ([repo](https://github.com/artbycrunk/vscode-maya)) - Maya syntax highlighting support, along with autocomplete commands and send code to Maya via command port `MIT`
+    - [MayaPort](https://marketplace.visualstudio.com/items?itemName=JonMacey.mayaport) ([repo](https://github.com/NCCA/mayaport)) - Run Maya code from VSCode `MIT`
+    - [SendtoMaya](https://marketplace.visualstudio.com/items?itemName=ivancheung7.sendtomaya) - Alternative to MayaPort, serving the same purpose
+    - [MEL Language Syntax](https://github.com/sator-imaging/Visual-Studio-Code-MEL-Language.git) ([repo](https://github.com/sator-imaging/Visual-Studio-Code-MEL-Language.git)) - syntax highlighting support
+    - [VEX Language Syntax](https://marketplace.visualstudio.com/items?itemName=melmass.vex) ([repo](https://github.com/melMass/vscode-vex.git)) - syntax highlighting support `Public Domain`
 
 ## Files
 
@@ -119,11 +142,6 @@ Contributions are welcome!
 
 ## Resources
 
-* [Darktable](https://www.darktable.org/) - Photography workflow application and raw developer
-
-* [dcraw](https://www.dechifro.org/dcraw/) - A tool that decodes any raw image from any digital camera 
-on any computer running any operating system
-
 * [CasparCG](https://github.com/CasparCG) - Video broadcast
 
 * [Natron](https://natron.fr) - Compositing
@@ -136,21 +154,17 @@ on any computer running any operating system
 
 * [GStreamer](https://gstreamer.freedesktop.org/) - Multimedia framework
 
-* [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream 
-audio and video
+* [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video
 
-* [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and 
-film production
+* [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and film production
 
-* [Lucidity](http://lucidity.readthedocs.io/en/latest/) - String/filepath templates system inspired by 
-SGTK's template mechanisms
+* [Lucidity](http://lucidity.readthedocs.io/en/latest/) - String/filepath templates system inspired by SGTK's template mechanisms
 
 * [Fileseq](https://github.com/sqlboy/fileseq) - Frame ranges and file sequences parsing
 
 * [gofileseq](https://github.com/justinfx/gofileseq) - A Golang port of the library above
 
-* [pyseq](https://github.com/rsgalloway/pyseq) - Another Python module for file sequence parsing and 
-serialization
+* [pyseq](https://github.com/rsgalloway/pyseq) - Another Python module for file sequence parsing and serialization
 
 * [Clique](https://gitlab.com/4degrees/clique) - Another Python module for file sequence parsing and formatting
 
@@ -180,8 +194,7 @@ serialization
 
 * [minq](https://github.com/theodox/minq) - Maya query language for speeding up common scene operations
 
-* [OpenWalter](https://github.com/rodeofx/OpenWalter) - USD Plugins Arnold, Houdini, Katana, Maya and 
-USD
+* [OpenWalter](https://github.com/rodeofx/OpenWalter) - USD Plugins Arnold, Houdini, Katana, Maya and USD
 
 * [Cortex](https://github.com/ImageEngine/cortex) - Libraries for VFX software development
 
@@ -205,18 +218,13 @@ USD
 
 * [Open3D](http://www.open3d.org/) - A Modern Library for 3D Data Processing
 
-* [PCL](https://pointclouds.org/) - A standalone, large scale, open project for 2D/3D image and point 
-cloud processing
+* [PCL](https://pointclouds.org/) - A standalone, large scale, open project for 2D/3D image and point cloud processing
 
-* [Partio](https://www.disneyanimation.com/technology/partio.html) - A unified interface that makes it 
-easier to load, save, and manipulate particle files
+* [Partio](https://www.disneyanimation.com/technology/partio.html) - A unified interface that makes it easier to load, save, and manipulate particle files
 
-* [OpenSubdiv](http://graphics.pixar.com/opensubdiv/docs/intro.html) - A set of open source libraries 
-that implement high performance subdivision surface evaluation on massively parallel CPU and GPU 
-architectures
+* [OpenSubdiv](http://graphics.pixar.com/opensubdiv/docs/intro.html) - A set of open source libraries that implement high performance subdivision surface evaluation on massively parallel CPU and GPU architectures
+
 * [Dem Bones](https://www.ea.com/seed/news/open-source-dem-bones) - A library for skinning decomposition
-
-* [OpenColorIO](https://opencolorio.org/) ([repo](https://github.com/AcademySoftwareFoundation/OpenColorIO)) - Unified color environment
 
 * [Colour](https://www.colour-science.org/) - An open-source Python package providing a comprehensive number of algorithms and datasets for colour science
 
@@ -234,44 +242,31 @@ architectures
 
 * [MaterialX](https://github.com/materialx/MaterialX) - Materials and look-dev
 
-* [OpenEXR](http://www.openexr.com/) ([repo](https://github.com/AcademySoftwareFoundation/openexr)) - 
-exceptional image format for visual effects purposes, pioneered by ILM
+* [OpenEXR](http://www.openexr.com/) ([repo](https://github.com/AcademySoftwareFoundation/openexr)) - exceptional image format for visual effects purposes, pioneered by ILM
 
 * [OpenEXRid](https://github.com/MercenariesEngineering/openexrid) - Object isolation
 
-* [OpenImageIO](https://github.com/OpenImageIO/oiio) - A library for reading and writing images in many 
-common and VFX related formats
-
-* [ImageMagick](https://imagemagick.org/index.php) - Use ImageMagick to create, edit, compose, or 
-convert bitmap images
+* [ImageMagick](https://imagemagick.org/index.php) - Use ImageMagick to create, edit, compose, or convert bitmap images
 
 * [OpenCV](https://opencv.org/) - An open source computer vision and machine learning software library
 
-* [texture-synthesis](https://github.com/EmbarkStudios/texture-synthesis) - Example-based texture 
-synthesis written in Rust
+* [texture-synthesis](https://github.com/EmbarkStudios/texture-synthesis) - Example-based texture synthesis written in Rust
 
-* [pfstools](http://pfstools.sourceforge.net/) - A set of command line programs for reading, writing 
-and manipulating high-dynamic range (HDR) images and video frames
+* [pfstools](http://pfstools.sourceforge.net/) - A set of command line programs for reading, writing and manipulating high-dynamic range (HDR) images and video frames
 
-* [OpenDCX](http://www.opendcx.org/) ([repo](https://github.com/dreamworksanimation/opendcx)) - C++ 
-extensions for OpenEXR's "deep" file format
+* [OpenDCX](http://www.opendcx.org/) ([repo](https://github.com/dreamworksanimation/opendcx)) - C++ extensions for OpenEXR's "deep" file format
 
-* [OpenTimelineIO](http://opentimeline.io) ([repo](https://github.com/PixarAnimationStudios/
-OpenTimelineIO)) - Editorial timeline
+* [OpenTimelineIO](http://opentimeline.io) ([repo](https://github.com/PixarAnimationStudios/OpenTimelineIO)) - Editorial timeline
 
 * [USD](http://graphics.pixar.com/usd/docs/index.html) - Scenes
 
-* [AL_USDMaya](https://github.com/AnimalLogic/AL_USDMaya) - Represent Maya data in Maya, and USD data 
-in USD
+* [AL_USDMaya](https://github.com/AnimalLogic/AL_USDMaya) - Represent Maya data in Maya, and USD data in USD
 
-* [USD Manager](http://www.usdmanager.org/) - Program designed for lightweight browsing, managing, and 
-editing of Universal Scene Description (USD) files
+* [USD Manager](http://www.usdmanager.org/) - Program designed for lightweight browsing, managing, and editing of Universal Scene Description (USD) files
 
-* [OpenVDB](http://www.openvdb.org/) ([repo](https://github.com/AcademySoftwareFoundation/openvdb)) - 
-Volumetric data
+* [OpenVDB](http://www.openvdb.org/) ([repo](https://github.com/AcademySoftwareFoundation/openvdb)) - Volumetric data
 
-* [OpenVDB AX](https://github.com/dneg/openvdb_ax) - Fast expression language for manipulating OpenVDB 
-files
+* [OpenVDB AX](https://github.com/dneg/openvdb_ax) - Fast expression language for manipulating OpenVDB files
 
 * [Field3D](https://magnuswrenninge.com/field3d) - An open source library for storing voxel data
 
@@ -279,14 +274,9 @@ files
 
 * [Coalition](http://coalition.readthedocs.io/en/latest/) from Mercenaries Engineering (developers of Guerilla Render)
 
-* [OpenCue](https://opencue.io) ([repo](https://github.com/AcademySoftwareFoundation/OpenCue)) from 
-Sony Imageworks
-
 * [Flamenco](https://www.flamenco.io/) from the Blender Foundation
 
 * [Plow](https://github.com/chadmv/plow) by Chad Vernon
-
-* [CGRU](http://cgru.info/) is a CG tools pack that includes AFANASY, a free opensource render farm manager
 
 * [Pandora](https://prism-pipeline.com/pandora/) Open-Source Renderfarm-Manager
 
@@ -318,18 +308,11 @@ Sony Imageworks
 
 * [Attract](https://attract.studio/) - Production tracking for film makers (Blender Foundation)
 
-* [AliceVision](https://alicevision.org/) - Photogrammetric Computer Vision Framework
-
-* [COLMAP](https://colmap.github.io/) - A general-purpose Structure-from-Motion (SfM) and Multi-View 
-Stereo (MVS) pipeline with a graphical and command-line interface
+* [COLMAP](https://colmap.github.io/) - A general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface
 
 * [openMVG](https://openmvg.readthedocs.io/en/latest/) - A library for computer-vision scientists and targeted for the Multiple View Geometry community
 
-* [Pyblish](http://pyblish.com/) - Test-driven content creation
-
-* [Animal Logic's USD Docker](https://github.com/AnimalLogic/docker-usd)
-
-* [Deadline](https://github.com/mottosso/docker-deadline)
+* [openMVG](https://openmvg.readthedocs.io/en/latest/) - A library for computer-vision scientists and targeted for the Multiple View Geometry community
 
 * [Kitsu/Zou](https://github.com/mottosso/docker-cgwire)
 
@@ -353,37 +336,7 @@ Stereo (MVS) pipeline with a graphical and command-line interface
 
 * [Wiretap](https://github.com/predat/wiretap) - Manage Flame Wiretap database
 
-* [MayaCharm](https://github.com/cmcpasserby/MayaCharm) - Run and edit Maya scripts directly from PyCharm
-
 * [USD](https://github.com/justint/usd-idea) - Plug-in for USD
-
-* [MayaSublime](https://github.com/justinfx/MayaSublime) - Run and edit Maya scripts directly from SublimeText
-
-* [MariSublime](https://github.com/cg-cnu/marisublime) - Run and edit Mari scripts directly from SublimeText
-
-* [VEX](https://github.com/teared/VEX) - Houdini add-on for Sublime Text
-
-* [nuke.vim](https://github.com/heavyimage/nuke.vim) - Run and edit Nuke scripts directly from vim
-
-* [MayaCode](https://marketplace.visualstudio.com/items?itemName=saviof.mayacode) ([repo](https://
-github.com/artbycrunk/vscode-maya)) - Maya syntax highlighting support, along with autocomplete 
-commands and send code to maya via command port
-
-* [MayaPort](https://marketplace.visualstudio.com/items?itemName=JonMacey.mayaport) ([repo](https://
-github.com/NCCA/mayaport)) - Run Maya code from VSCode
-
-* [SendtoMaya](https://marketplace.visualstudio.com/items?itemName=ivancheung7.sendtomaya) - 
-Alternative to MayaPort, serving the same purpose
-
-* [MEL Language Syntax](https://github.com/sator-imaging/Visual-Studio-Code-MEL-Language.git) ([repo]
-(https://github.com/sator-imaging/Visual-Studio-Code-MEL-Language.git)) - for syntax highlighting 
-support
-
-* [VEX Language Syntax](https://marketplace.visualstudio.com/items?itemName=melmass.vex) ([repo](https:/
-/github.com/melMass/vscode-vex.git)) - for syntax highlighting support
-
-* [Blink Script (Nuke) Language Syntax](https://marketplace.visualstudio.com/items?itemName=melmass.
-blink) ([repo](https://github.com/melMass/vscode-blink.git)) - for syntax highlighting support
 
 * [Pixar USD ASCII Language Syntax](https://marketplace.visualstudio.com/items?itemName=AnimalLogic.vscode-usda-syntax) ([repo](https://github.com/AnimalLogic/AL_usd_vscode_extension)) - for syntax highlighting support, courtesy of the folks at Animal Logic
 
@@ -435,8 +388,7 @@ blink) ([repo](https://github.com/melMass/vscode-blink.git)) - for syntax highli
 
 * [Digital Video Introduction](https://github.com/leandromoreira/digital_video_introduction)
 
-* [Example of Python scripts for 3D Studio Max, Maya and Blender](https://github.com/p4vv37/
-3D_Software_and_Python/)
+* [Example of Python scripts for 3D Studio Max, Maya and Blender](https://github.com/p4vv37/3D_Software_and_Python/)
 
 * [Pipeline Patterns](http://www.pipelinepatterns.com/)
 
