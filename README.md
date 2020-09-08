@@ -7,7 +7,7 @@ Contributions are welcome!
 ## How to read it
 
 * [Project Name](#) - Short description `SPDX License`
-* [GIMP](https://www.gimp.org) - Cross-platform image editor `GPL-3.0-only`
+* [Dust3D](https://dust3d.org) - Modeling software `MIT`
 
 [SPDX](https://spdx.org/licenses/) is a standard identifier for common licences.
 
@@ -56,7 +56,7 @@ Contributions are welcome!
 * Formats
 * Point clouds
 * Processing
-    - [MeshLab](https://www.meshlab.net/) - System for processing and editing 3D triangular meshes `GPL-3.0-only`
+    - [MeshLab](https://www.meshlab.net/) - System for processing and editing 3D triangular meshes `GPL-3.0`
 
 ## Volumes
 
@@ -71,28 +71,28 @@ Contributions are welcome!
 
 ## Video
 
-* [CasparCG](https://github.com/CasparCG) - A Windows and Linux software used to play out professional graphics, audio and video to multiple outputs as a layerbased real-time compositor `GPL-3.0-only`
+* [CasparCG](https://github.com/CasparCG) - A Windows and Linux software used to play out professional graphics, audio and video to multiple outputs as a layerbased real-time compositor `GPL-3.0`
 * [Natron](https://natrongithub.github.io/) - Open Source Compositing Software For
-VFX and Motion Graphics `GPL-2.0-only`
-* [Shotcut](https://www.shotcutapp.com/) - Shotcut is a free, open source, cross-platform video editor `GPL-3.0-only`
-* [Kdenlive](https://www.kdenlive.org) - Video editing software based on the MLT Framework, KDE and Qt `GPL-2.0-or-later`
-* [Olive](https://www.olivevideoeditor.org/) - Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software `GPL-3.0-only`
-* [GStreamer](https://gstreamer.freedesktop.org/) - Pipeline-based multimedia framework that links together a wide variety of media processing systems to complete complex workflows `LGPL-3.0-only`
+VFX and Motion Graphics `GPL-2.0`
+* [Shotcut](https://www.shotcutapp.com/) - Shotcut is a free, open source, cross-platform video editor `GPL-3.0`
+* [Kdenlive](https://www.kdenlive.org) - Video editing software based on the MLT Framework, KDE and Qt `GPL-2.0`
+* [Olive](https://www.olivevideoeditor.org/) - Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software `GPL-3.0`
+* [GStreamer](https://gstreamer.freedesktop.org/) - Pipeline-based multimedia framework that links together a wide variety of media processing systems to complete complex workflows `LGPL-2.0`
 * [ffmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert and stream audio and video `LGPL-2.1-or-later`
 * [DJV](https://darbyjohnston.github.io/DJV/) - Professional review software for VFX, animation, and film production `BSD-3-Clause`
 
 ## Images
 
 * Editors
-    - [GIMP](https://www.gimp.org) - A cross-platform image editor `GPL-3.0-only`
-    - [Krita](https://krita.org) - A professional painting program `GPL-3.0-only`
+    - [GIMP](https://www.gimp.org) - A cross-platform image editor `GPL-3.0-or-later`
+    - [Krita](https://krita.org) - A professional painting program `GPL-3.0`
     - [Storyboarder](https://wonderunit.com/storyboarder/) - The best way to visualize your story `MIT`
     - [MyPaint](http://mypaint.org/) - Graphics editor for digital painters with a focus on painting rather than image manipulation or post processing `GPL-2.0-or-later`
-    - [Inkscape](https://inkscape.org/) - Professional quality vector graphics software `GPL-2.0-only`
+    - [Inkscape](https://inkscape.org/) - Professional quality vector graphics software `GPL-2.0`
 * Animation
     - [OpenToonz](https://opentoonz.github.io/e/index.html) - Animation production software `BSD-3-Clause`
-    - [Synfig](https://www.synfig.org/) - 2D animation software `GPL-3.0-only`
-    - [Pencil2D](https://www.pencil2d.org/) - An easy, intuitive tool to make 2D hand-drawn animations `GPL-2.0-only`
+    - [Synfig](https://www.synfig.org/) - 2D animation software `GPL-3.0`
+    - [Pencil2D](https://www.pencil2d.org/) - An easy, intuitive tool to make 2D hand-drawn animations `GPL-2.0`
 * Libraries
     - [OpenImageIO](https://github.com/OpenImageIO/oiio) - A library for reading and writing images in many common and VFX related formats `BSD-3-Clause`
     - [OpenColorIO](https://opencolorio.org/) - A complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation `BSD-3-Clause`
@@ -129,7 +129,7 @@ VFX and Motion Graphics `GPL-2.0-only`
     - [MariSublime](https://github.com/cg-cnu/marisublime) - Send code to Mari from Sublime Text using command port `MIT`
     - [VEX](https://github.com/teared/VEX) - Houdini add-on for Sublime Text
 * [Vim](https://www.vim.org/) - A highly configurable text editor built to make creating and changing any kind of text very efficient `Vim`
-    - [nuke.vim](https://github.com/heavyimage/nuke.vim) - A vim plugin with tools for integrating with The Foundry's Nuke `GPL-3.0-or-later`
+    - [nuke.vim](https://github.com/heavyimage/nuke.vim) - A vim plugin with tools for integrating with The Foundry's Nuke `GPL-3.0`
 * [Visual Studio Code](https://code.visualstudio.com/) - A free source-code editor made by Microsoft for Windows, Linux and macOS `MIT`
     - [Blink Script](https://marketplace.visualstudio.com/items?itemName=melmass.blink) - The Foundry's Nuke Blink script syntax support and snippets for VSCode
     - [MayaCode](https://marketplace.visualstudio.com/items?itemName=saviof.mayacode) - A Visual Studio Code extension with support for coding for Maya `MIT`
